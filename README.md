@@ -1,5 +1,6 @@
 # Notes
 Daily update about classes
+
 DATE:14/02/2024 
 RAM is a primary storage memory which is volatile.
 Secondary memory is non volatile.
@@ -20,4 +21,8 @@ S-Bus -System Bus.
 Peripherals are sending by using "SYSTEM BUS"(S-Bus).
 GPIO's it has GPIO PIN and GPIO PORT.
 Many GPIO PIN join together is called Port.
+If enable line is 1 output buffer will work..If enable line is 0 input buffer will work.
+High Z state - we couldn't predict ,it is high or low (floating state)
+We want to give PULL UP or PULL DOWN during input,resistor to connect ,it will give STABLE.
+GPIO OUTPUT MODE:  1)open drain state.2)
 
