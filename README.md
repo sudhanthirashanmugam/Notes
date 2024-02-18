@@ -24,5 +24,18 @@ Many GPIO PIN join together is called Port.
 If enable line is 1 output buffer will work..If enable line is 0 input buffer will work.
 High Z state - we couldn't predict ,it is high or low (floating state)
 We want to give PULL UP or PULL DOWN during input,resistor to connect ,it will give STABLE.
-GPIO OUTPUT MODE:  1)open drain state.2)
+GPIO OUTPUT MODE:  1)open drain state.2)pull up configuration. 3)when the transitor is ON,the pin is pulled to ground.
+To access the GPIOA port ,we have to activate the clock.
+MODER(COnfigure the I/O direction mode): 1) 0 0 input (reset state). 2) 0 1 General purpose output mode. 3) 1 0 Alternate function mode. 4) 1 1 Analog mode.
+
+DATE:15/02/2024
+PHERIPHERALS: 1)GPIO 2)I2C 3)SPI 4)Timer.
+GPIO -have 7 memory space and address ,that memory space is called REGISTERS.
+GPIO A to GPIO H having different memory space and having same registers.
+REGISTERS: 1) MODER 2) OTYPER 3) OSPEEDR 4) PUPDR 5) IDR 6) ODR 7)BSRR 8) LCKR 9) AFRL.
+GPIO A base address will be 0*40020000.
+we know the base address of GPIO and we know thw offset of GPIO.
+Physical address has 8 bit or byte addressable.Base address is 20 and offset is 20 --Address will be start at 40 (20+20=40).
+
+DATE: 16/02/2024
 
