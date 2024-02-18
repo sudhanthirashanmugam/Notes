@@ -1,7 +1,9 @@
 # Notes
 Daily update about classes
 
-DATE:14/02/2024 
+DATE:14/02/2024
+
+
 RAM is a primary storage memory which is volatile.
 Secondary memory is non volatile.
 RAM's are Dynamic Random Access Memory(DRAM) and Static Random Access Memory (SRAM).
@@ -29,6 +31,8 @@ To access the GPIOA port ,we have to activate the clock.
 MODER(COnfigure the I/O direction mode): 1) 0 0 input (reset state). 2) 0 1 General purpose output mode. 3) 1 0 Alternate function mode. 4) 1 1 Analog mode.
 
 DATE:15/02/2024
+
+
 PHERIPHERALS: 1)GPIO 2)I2C 3)SPI 4)Timer.
 GPIO -have 7 memory space and address ,that memory space is called REGISTERS.
 GPIO A to GPIO H having different memory space and having same registers.
