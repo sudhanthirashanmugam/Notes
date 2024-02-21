@@ -46,3 +46,22 @@ DATE: 16/02/2024
 __IO -> volatile GPIO typedefGPIO_BASE here GPIO typedef is one structure for different address GPIOA BASE, GPIOB BASE,..... AHB1ENR , The registers above the ABH1ENR should be used for that we will create a dummy , The registers below the ABH1ENR is no need to use. DELAY -> used to blink RR_TYPEDEF -> using structure you cahnge all the values to address.
 
 GPIO_BASE (AHB1PERIPH_BASE + GPIO_OFFSET) When we use the (volatile unsigned int )then we call as address integer poiter typecaste (RCC_BASE + AHB1EN_R_OFFSET)will be changes as address. ((volatile unsigned int *)(RCC_BASE + AHB1EN_R_OFFSET))
+
+DATE:21/02/2024
+
+
+1)Serial communication:8-bit data is transfered one bit at a time and line by line process(one by one bit).
+
+2)Parallel Communication:8-bit data is transfered the same time(full data send at a time).
+
+Serial data communication uses two methods: 
+
+       1)Synchronous-clock is transmitted with the data.
+
+       2)Asynchronous-no clock is tramitted.Transmitter and Receiver agree on the clock speed for the data transmission(Baudrate).
+
+UART-Universal Synchronous Receiver/Transmitter and UART is a serial communication protocol.
+
+USART-Universal Asynchronous Receiver/Transmitter.
+1)Duplex:Data can be transmitted and received.(eg:Mobile Phones).2)Simplex:Data can be transmitted only or received only. ie)one direction only(eg:Radio).
+3)Half Duplex:Data can be transmitted in only one way at a time.(eg:Walky Talky).4)Full Duplex:Data can be transmitted in both ways.(eg:UART).
