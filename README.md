@@ -63,5 +63,6 @@ Serial data communication uses two methods:
 UART-Universal Synchronous Receiver/Transmitter and UART is a serial communication protocol.
 
 USART-Universal Asynchronous Receiver/Transmitter.
+
 1)Duplex:Data can be transmitted and received.(eg:Mobile Phones).2)Simplex:Data can be transmitted only or received only. ie)one direction only(eg:Radio).
 3)Half Duplex:Data can be transmitted in only one way at a time.(eg:Walky Talky).4)Full Duplex:Data can be transmitted in both ways.(eg:UART).
