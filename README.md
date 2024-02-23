@@ -66,3 +66,21 @@ USART-Universal Asynchronous Receiver/Transmitter.
 
 1)Duplex:Data can be transmitted and received.(eg:Mobile Phones).2)Simplex:Data can be transmitted only or received only. ie)one direction only(eg:Radio).
 3)Half Duplex:Data can be transmitted in only one way at a time.(eg:Walky Talky).4)Full Duplex:Data can be transmitted in both ways.(eg:UART).
+
+DATE:22/02/2024
+
+sudo apt get install minicom for linux everything is a file or it is a process,in linux mouse, keyboard are file
+
+in new tab ls / ls /dev ls -l /dev
+
+SOC-system on chip ---->Name in soc SOM-system on module------>phycore A5D2X SBC-single board computer----->rugged board A5D2X
+
+Three types of boot
+
+    flash memory boot
+    sd card booot
+    network boot flash memory is like a harddisk
+
+at91.bootstrap ---->primary
+
+boot RDm-->it works as load to the SRAM u-boot--> it will load in .dtb RAM .dts--->device tree source .dtsi---->device tree source include .dtb--->compiles both .dts and .dtsi FInally load all and only mount thr RFS
