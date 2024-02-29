@@ -84,3 +84,98 @@ Three types of boot
 at91.bootstrap ---->primary
 
 boot RDm-->it works as load to the SRAM u-boot--> it will load in .dtb RAM .dts--->device tree source .dtsi---->device tree source include .dtb--->compiles both .dts and .dtsi FInally load all and only mount thr RFS
+
+
+DATE:28/02/2024
+
+ARM
+
+electronic Gadgets
+
+ARM
+
+Before ARM introduce we have CICS
+
+Cles ARM
+
+load and store These & instructions only work in memory other instructions all work in Registers.
+
+Soume file
+
+• C
+
+.i
+
+•S assembly
+
+elf
+Secondary memory saves the saved codes.. when the code is send from secondary memory to primary
+=> For one set architecture neraiya microarchitecture inukum.
+
+Arm is not a chip manufacturing company" design
+
+
+
+Family can have multiple architecture for that can have multiple procusor.
+ARM architecture specifier
+
+at con how
+
+Multiple procellor
+
+Instruction set
+
+
+Register set
+
+interrupt
+
+
+
+Exception model
+
+
+
+Memory model
+
+
+
+Debug, Trace and profilines
+
+fioud point
+
+RISC- Reduced instruction set computer
+
+
+
+simple instructions
+
+
+
+simple Addressing modes
+
+
+Load store Architecture
+
+
+Big Endian and little Endian
+
+Mioro architecture
+
+build and design of a processor
+
+Number and sizes of cache
+
+cycle court for individual instructions
+
+which optional feature are implemented
+Notes GitHub update pannikonga
+ARM Dowmentation
+
+- ARM [architecture reference manual]
+
+- TRM [ Technical reference manual]
+
+-
+
+CIM [Configuration and integration manual] Soc datasheet.
